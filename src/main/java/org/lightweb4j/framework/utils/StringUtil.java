@@ -18,4 +18,14 @@ public final class StringUtil {
     public static boolean isNotEmpty(String str){
         return !isEmpty(str);
     }
+
+    /**
+     * 按指定格式分割字符串
+     * @param source
+     * @param regex
+     * @return
+     */
+    public static String[] splitString(String source, String regex){
+        return source.split(regex);
+    }
 }

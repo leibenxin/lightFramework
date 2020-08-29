@@ -1,4 +1,4 @@
-package org.lightweb4j.framework;
+package org.lightweb4j.framework.core;
 
 import org.lightweb4j.framework.helper.BeanHelper;
 import org.lightweb4j.framework.helper.ClassHelper;
