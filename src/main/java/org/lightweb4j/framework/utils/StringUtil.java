@@ -1,5 +1,7 @@
 package org.lightweb4j.framework.utils;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * @Author benxin_lei
  * @Date 2020-08-27 0:25
@@ -12,7 +14,7 @@ public final class StringUtil {
             str = str.trim();
         }
 
-        return StringUtil.isEmpty(str);
+        return StringUtils.isEmpty(str);
     }
 
     public static boolean isNotEmpty(String str){

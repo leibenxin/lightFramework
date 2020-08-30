@@ -25,11 +25,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *
  * 请求转发器
  * @Author benxin_lei
  * @Date 2020-08-29 11:24
  * @Version 1.0.0
  */
+// 配置WebServlet注解，拦截所有的Http请求
 @WebServlet(urlPatterns = "/*", loadOnStartup = 0)
 public class DispatcherServlet extends HttpServlet {
 
